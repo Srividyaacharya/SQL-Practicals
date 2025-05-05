@@ -21,6 +21,10 @@ The `Products` table has the following schema:
 - `low_fats` can have values `'Y'` (low fat) or `'N'` (not low fat).
 - `recyclable` can have values `'Y'` (recyclable) or `'N'` (not recyclable).
 
+### Code 
+
+SELECT product_id FROM Products WHERE low_fats = 'Y' AND recyclable = 'Y';
+
 ### Output
 
 ![image](https://github.com/user-attachments/assets/ea86b353-826d-4e4a-a44b-5e43e4e38788)
